@@ -1,0 +1,145 @@
+body html {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+* {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#SITE_CONTAINER {
+    margin: 0;
+    padding: 0;
+}
+
+#NAVBAR_WRAPPER {
+    max-width: 100%;
+    
+}
+.navbar {
+  z-index: 10;
+  opacity: 1;  
+  background-color: white;  
+  white-space: nowrap;
+  box-shadow: 2px 2px 4px #3131319e;
+
+}   
+
+.navbar button, #FORM button {
+    background-color: rgba(168, 79, 145, .5);
+    border: #a84f91;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 12pt;
+    box-shadow: 2px 2px 4px #7474749e;
+    color: white;
+
+}
+
+.navbar button:hover, #FORM button:hover {
+    background-color: rgb(172, 69, 144);
+    box-shadow: 2px 2px 4px #000000c4;
+
+}
+
+#LOGO_IMG {
+    padding-left: 5%;
+}
+
+.logo {
+    max-width: 240px;
+}
+
+#NAVBAR_WRAPPER {
+    font-size: 15PX;
+    font-weight: bold;
+}
+
+#NAVBAR_WRAPPER a {
+    padding: 0px 35px;
+}
+
+#NAVBAR_WRAPPER a:hover {
+    color: #a84f91;
+    font-size: larger;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+
+#MAKE_APT_BTN {
+    padding-right: 5%;
+}
+
+#NAME_WRAPPER {
+    padding-top: 7%;
+    padding-bottom: 1%;
+}
+
+#NAME_WRAPPER h3 {
+    color: #929493;
+    font-family: 'Meow Script', cursive;
+}
+
+#CAROUSEL_IMG {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#QUOTE h3 {
+    font-family: 'Meow Script', cursive;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+hr {
+    border-style: inset;
+    border-width: 4px;
+}
+
+#SITE_FOOTER_WRAPPER {
+    padding: 20px 100px 50px;
+    background-image: linear-gradient(white, #9a9999);
+    font-size: 20px ;
+    text-decoration: none;
+}
+
+#SITE_FOOTER_WRAPPER a {
+    text-decoration: none;
+    color: black;
+}
+
+#SITE_FOOTER_WRAPPER img {
+    max-width: 200px;
+    padding-bottom: 20px;
+}
+
+#SOCIAL_MEDIA_ICONS IMG {
+    max-width: 40PX;
+}
+
+#HERO_IMG img {
+    filter: brightness(80%);
+}
+
+#HERO_IMG h1 {
+    font-weight: bold;
+}
+
+#CONTACT_FORM {
+    padding: 1% 0;
+}
+
+#APPOINTMENT_IMG {
+    max-width: 80%;
+}
